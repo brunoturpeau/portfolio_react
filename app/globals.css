@@ -15,3 +15,39 @@
 .a-propos main{
     justify-content: normal ;
 }
+
+html::-webkit-scrollbar {
+    width: 2rem;
+    background-color:
+            rgba(0,0,0,.15);
+}
+html::-webkit-scrollbar-thumb {
+    background:
+            #a8a29e;
+}
+/* scrollbar styling standard version */
+html {
+    scrollbar-color:
+            #cbd5e1
+            rgba(203, 213, 225, .4);
+    scrollbar-width: thin;
+}
+
+
+
+html.dark::-webkit-scrollbar {
+    width: 2rem;
+    background-color:
+            rgba(12,00,99,.15);
+}
+html.dark::-webkit-scrollbar-thumb {
+    background:
+            #000000
+}
+/* scrollbar styling standard version */
+html.dark {
+    scrollbar-color:
+            #000000
+            #475569;
+    scrollbar-width: thin;
+}
