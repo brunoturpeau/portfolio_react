@@ -9,6 +9,10 @@ const config: Config = {
   darkMode: 'selector',
   theme: {
     extend: {
+      fontFamily: {
+        raleway: ["Raleway", "sans-serif"],
+        playwrite: ["playwrite-au-vic", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
