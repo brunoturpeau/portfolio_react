@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    h1 {
-        @apply text-2xl font-black uppercase sm:text-4xl;
+@layer utilities {
+    .h1 {
+        @apply text-2xl mt-5 mb-14 font-black text-center uppercase sm:text-4xl;
+    }
+    .prose p{
+        @apply mb-5;
+        line-height: 32px;
     }
 }
 
