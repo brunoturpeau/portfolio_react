@@ -31,7 +31,7 @@ export default function RootLayout({
                 <div className={`w-full flex items-center justify-end p-5`}>
                     <label className="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" className="sr-only peer"/>
-                        <span>
+                        <span onClick={ToggleSwitchMode}>
                             <svg className="w-5 h-5 me-2 text-gray-800 dark:text-white" aria-hidden="true"
                                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                  viewBox="0 0 24 24">
@@ -48,7 +48,7 @@ export default function RootLayout({
                             after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300
                             after:border after:rounded-full after:w-5 after:h-5 after:transition-all
                             dark:border-gray-600 peer-checked:bg-slate-300"></div>
-                        <span>
+                        <span onClick={ToggleSwitchMode}>
                             <svg className="w-5 h-5 ms-2 text-gray-800 dark:text-white" aria-hidden="true"
                                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                  viewBox="0 0 24 24">
