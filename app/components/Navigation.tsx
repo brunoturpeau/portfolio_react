@@ -37,7 +37,7 @@ export function Navigation(){
                         </svg>
                     </Link>
                 </li>
-                <li className="hidden item-nav">
+                <li className="item-nav">
                     <Link className="link-nav" href="/portfolio">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
