@@ -11,14 +11,14 @@
         line-height: 32px;
     }
     .item-nav {
-        @apply sm:bg-slate-800 sm:rounded-full sm:border-4 sm:border-slate-700
-        sm:hover:bg-slate-700 hover:scale-105;
+        @apply sm:bg-slate-300 sm:border-slate-400 dark:sm:border-slate-700 dark:sm:bg-slate-800 sm:rounded-full sm:border-4
+        sm:hover:bg-slate-200 dark:sm:hover:bg-slate-700 hover:scale-105;
     }
     .link-nav{
         @apply block sm:p-5 ;
     }
     .icon-nav{
-        @apply w-8 h-8 sm:w-12 sm:h-12 fill-slate-300;
+        @apply w-8 h-8 sm:w-12 sm:h-12 fill-slate-400 dark:fill-slate-300;
     }
 }
 
