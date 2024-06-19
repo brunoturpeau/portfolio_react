@@ -1,4 +1,5 @@
-export function Card({ name, content, image }) {
+
+export function Card({name, content, image } : {name:string, content:string, image:string} ) {
     return (
         <div className="relative">
             <img className="img-portfolio" src={`${image}`} alt={`${name}`} />
