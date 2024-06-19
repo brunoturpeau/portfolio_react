@@ -12,13 +12,13 @@
     }
     .item-nav {
         @apply sm:bg-slate-800 sm:rounded-full sm:border-4 sm:border-slate-700
-        sm:hover:bg-slate-700;
+        sm:hover:bg-slate-700 hover:scale-105;
     }
     .link-nav{
         @apply block sm:p-5 ;
     }
     .icon-nav{
-        @apply w-12 h-12 fill-slate-300;
+        @apply w-8 h-8 sm:w-12 sm:h-12 fill-slate-300;
     }
 }
 
