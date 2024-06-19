@@ -10,7 +10,18 @@
         @apply mb-5;
         line-height: 32px;
     }
+    .item-nav {
+        @apply sm:bg-slate-800 sm:rounded-full sm:border-4 sm:border-slate-700
+        sm:hover:bg-slate-700;
+    }
+    .link-nav{
+        @apply block sm:p-5 ;
+    }
+    .icon-nav{
+        @apply w-12 h-12 fill-slate-300;
+    }
 }
+
 
 .a-propos main{
     justify-content: normal ;
@@ -22,18 +33,14 @@ html::-webkit-scrollbar {
             rgba(0,0,0,.15);
 }
 html::-webkit-scrollbar-thumb {
-    background:
-            #a8a29e;
+    background: #a8a29e;
 }
 /* scrollbar styling standard version */
 html {
-    scrollbar-color:
-            #cbd5e1
+    scrollbar-color: #cbd5e1
             rgba(203, 213, 225, .4);
     scrollbar-width: thin;
 }
-
-
 
 html.dark::-webkit-scrollbar {
     width: 2rem;
@@ -41,8 +48,7 @@ html.dark::-webkit-scrollbar {
             rgba(12,00,99,.15);
 }
 html.dark::-webkit-scrollbar-thumb {
-    background:
-            #000000
+    background: #000000
 }
 /* scrollbar styling standard version */
 html.dark {
