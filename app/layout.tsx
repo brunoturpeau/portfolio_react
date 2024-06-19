@@ -28,7 +28,7 @@ export default function RootLayout({
         <div className={`flex flex-col sm:flex-row`}>
             <Navigation/>
             <main className={ `overflow-y-auto flex flex-col items-center h-screen w-full justify-between`}>
-                <div className={`w-full flex items-center justify-end p-5`}>
+                <div className={`w-full flex items-center mt-12 sm:mt-0 justify-end p-5`}>
                     <label className="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" className="sr-only peer"/>
                         <span onClick={ToggleSwitchMode}>
